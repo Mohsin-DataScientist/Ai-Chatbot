@@ -22,7 +22,7 @@ st.set_page_config(
 st.markdown(
     """
     <h1 style="text-align:center; color:#6C63FF;">💎 Conversational Chatbot</h1>
-    <p style="text-align:center; color:gray;">Powered by GROQ + LangChain</p>
+    <p style="text-align:center; color:gray;">Made By Mohsin Raza</p>
     """,
     unsafe_allow_html=True,
 )
@@ -99,3 +99,4 @@ with st.expander("📊 Conversation Stats"):
     st.write(f"Selected Model: {model_name}")
     st.write(f"Temperature: {temperature}")
     st.write(f"Max Tokens: {max_tokens}")
+
